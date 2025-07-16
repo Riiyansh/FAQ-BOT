@@ -1,11 +1,7 @@
 # FAQ-BOT
 <img width="1512" height="900" alt="Screenshot 2025-07-16 at 6 56 03 AM" src="https://github.com/user-attachments/assets/8fe2c082-d69e-4595-a1c2-f58e97725577" />
 
-Here’s your **final `README.md`** — polished, professional, and ready to copy-paste into your GitHub repo:
 
-> ✅ Supports demo link, usage instructions, embedding in websites, and credit.
-
----
 
 
 # 🤖 FAQ-BOT – AI-Powered FAQ Chatbot
@@ -29,7 +25,7 @@ A smart, lightweight, and embeddable FAQ chatbot built using **Streamlit**, **Se
 
 ## 🚀 Live Demo
 
-🔗 [https://riiyansh-faq-bot.streamlit.app](https://riiyansh-faq-bot.streamlit.app)  
+🔗 [https://riiyansh-faq-bot.streamlit.app](faq-bot-dgfavkzva8skbkfrcyfirq.streamlit.app/)  
 Try the chatbot online. Upload your own `faq.csv` or use the included sample.
 
 ---
@@ -143,7 +139,7 @@ Paste this snippet anywhere in your site’s HTML:
 ## 👨‍💻 Author
 
 Made with ❤️ by [**Riyansh Chouhan**](https://github.com/Riiyansh)
-Connect with me on [LinkedIn](https://www.linkedin.com/in/riyanshchouhan)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/riyansh-chouhan/)
 
 ---
 
@@ -157,14 +153,4 @@ MIT License — free to use, modify, and distribute.
 
 Give it a ⭐ on GitHub to show support!
 
-```
 
----
-
-Let me know if you'd like me to:
-- Add the README to your repo as a PR
-- Create a deploy badge for Render as well
-- Help with a custom domain like `faq.riyansh.in` for the bot
-
-You're ready to show this off! 🚀
-```
