@@ -1,0 +1,101 @@
+question,answer
+What is Streamlit?,Streamlit is an open-source Python library that allows users to create interactive web applications for data science and machine learning with minimal code.
+Who created Streamlit?,"Streamlit was created by Adrien Treuille, Thiago Teixeira, and Amanda Kelly and is now part of Snowflake."
+What programming language does Streamlit use?,Streamlit apps are built entirely in Python.
+How do I run a Streamlit app?,Save your script as a .py file and run it using the command `streamlit run your_script.py`.
+Is Streamlit open-source?,"Yes, Streamlit is completely open-source under the Apache 2.0 license."
+Can I deploy Streamlit apps online?,"Yes, you can deploy using Streamlit Community Cloud, or platforms like Heroku, AWS, GCP, and Azure."
+What is Streamlit Community Cloud?,It’s a free hosting service provided by Streamlit to deploy and share your apps easily.
+Do I need frontend skills to use Streamlit?,"No, Streamlit is designed for Python users with no frontend experience."
+Can I use Streamlit for dashboards?,"Yes, Streamlit is widely used for building interactive dashboards."
+How does Streamlit handle user interaction?,Streamlit automatically reruns the script from top to bottom every time a widget is interacted with.
+What is `st.cache_data` used for?,`st.cache_data` is used to store the output of expensive data processing functions to improve app performance.
+What is the difference between `st.cache_data` and `st.cache_resource`?,"`st.cache_data` caches return values of functions, while `st.cache_resource` caches external resources like database connections."
+Does Streamlit support real-time updates?,Streamlit supports near real-time updates using widgets and session states.
+What types of charts can I create with Streamlit?,"You can use line charts, bar charts, scatter plots, and integrate libraries like Plotly, Altair, and Matplotlib."
+Can I upload files in a Streamlit app?,"Yes, using `st.file_uploader()` you can upload images, CSVs, Excel files, etc."
+How do I collect user input in Streamlit?,"Use widgets like `st.text_input`, `st.selectbox`, `st.slider`, etc."
+What is `st.session_state`?,`st.session_state` allows you to store variables across interactions in an app.
+Can I customize the theme of my Streamlit app?,"Yes, you can customize themes in the `.streamlit/config.toml` file."
+How do I display images in Streamlit?,"Use `st.image()` to display images from a file, URL, or array."
+How can I show data tables?,Use `st.dataframe()` or `st.table()` to display data in a tabular format.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
+Can I build multi-page apps in Streamlit?,"Yes, Streamlit supports multipage apps using `streamlit >=1.10`."
+Is Streamlit good for beginners?,"Yes, Streamlit is beginner-friendly and requires minimal setup."
+How do I structure a Streamlit project?,Keep your app logic in a main script and separate modules for utilities or large components.
+Can I use Streamlit with Jupyter notebooks?,"Streamlit is designed for .py scripts, not Jupyter notebooks, but both can work together in a workflow."
+How do I use environment variables in Streamlit?,Use Python’s `os.environ` to access environment variables.
+How do I share my Streamlit app with others?,You can deploy to Streamlit Cloud or share a public link after deploying.
+Does Streamlit support authentication?,"Streamlit Cloud supports basic auth, or you can implement OAuth or custom login screens."
+How do I debug a Streamlit app?,Use standard Python debugging tools or add `st.write()`/`st.code()` for internal states.
+Can I create forms in Streamlit?,"Yes, wrap input widgets inside `st.form()` and use `form_submit_button()`."
+What’s the difference between `st.write()` and `st.text()`?,`st.write()` automatically detects the type of input while `st.text()` outputs plain text.
