@@ -7,9 +7,7 @@ Here’s your **final `README.md`** — polished, professional, and ready to cop
 
 ---
 
-### 📄 Final `README.md` (Copy this)
 
-```markdown
 # 🤖 FAQ-BOT – AI-Powered FAQ Chatbot
 
 A smart, lightweight, and embeddable FAQ chatbot built using **Streamlit**, **Sentence Transformers**, and **FAISS**. Upload your own CSV with questions and answers, and this bot will semantically match and respond to user queries.
