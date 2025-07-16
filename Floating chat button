@@ -1,0 +1,26 @@
+<!-- 💬 Floating Chat Button -->
+<div id="chatBtn" style="position:fixed;bottom:20px;right:20px;z-index:1000;">
+  <button onclick="openChat()"
+          style="padding:12px 18px;border:none;border-radius:50px;background:#4CAF50;color:white;font-size:16px;box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+    💬 Chat
+  </button>
+</div>
+
+<!-- 🧠 Modal with Streamlit chatbot -->
+<div id="chatModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:9999;">
+  <div style="position:relative;margin:5% auto;width:90%;max-width:600px;height:80%;background:white;border-radius:12px;overflow:hidden;">
+    <span onclick="closeChat()" style="position:absolute;top:10px;right:20px;font-size:28px;cursor:pointer;">&times;</span>
+    <iframe src="https://riiyansh-faq-bot.streamlit.app/"
+            width="100%" height="100%" style="border:none;"></iframe>
+  </div>
+</div>
+
+<!-- 📜 JS to handle open/close -->
+<script>
+  function openChat() {
+    document.getElementById('chatModal').style.display = 'block';
+  }
+  function closeChat() {
+    document.getElementById('chatModal').style.display = 'none';
+  }
+</script>
